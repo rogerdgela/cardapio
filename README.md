@@ -35,7 +35,7 @@ Este projeto é um cardápio virtual completo, com um sistema administrativo rob
 
 1. Clone o repositório:
     ```bash
-    git clone https://seu-repositorio.git
+    git clone https://github.com/rogerdgela/cardapio.git
     ```
 
 2. Configure o banco de dados:
