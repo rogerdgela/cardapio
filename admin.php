@@ -56,7 +56,7 @@ $produtos = $produtoRepositorio->buscarTodos();
                         <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
                         <td>
                             <form>
-                                <input type="button" class="botao-excluir" value="Excluir">
+                                <input type="submit" class="botao-excluir" value="Excluir">
                             </form>
                         </td>
                     </tr>
