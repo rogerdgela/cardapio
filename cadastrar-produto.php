@@ -11,6 +11,11 @@ if (isset($_POST['cadastro'])) {
         $_POST['descricao'], 
         $_POST['preco']
     );
+
+    $produtoRepositorio = new ProdutoRepositorio($pdo);
+    $produtoRepositorio->salvar($produto);
+
+    header("Location: admin.php");
 }
 
 
