@@ -57,4 +57,9 @@ class Produto
     {
         return "R$ " . number_format($this->preco, 2, ",", ".");
     }
+
+    public function setImagem($name)
+    {
+        $this->imagem = $name;
+    }
 }
